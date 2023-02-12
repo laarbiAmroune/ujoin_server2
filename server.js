@@ -7,7 +7,7 @@ const socket = require("socket.io");
 
 const io = socket(server,{
   cors:{
-    origin: "*",
+    origin: "https://ujoin-9ffc3.firebaseapp.com/",
     methods: ["GET", "POST", "PUT", "DELETE"]
   }
 });
